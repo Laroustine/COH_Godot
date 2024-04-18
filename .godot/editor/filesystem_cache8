@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1713444418
+Coh1map.png::CompressedTexture2D::928475371841798807::1713157106::1713157131::1::::<><>::
+Coh1_Counties.png::CompressedTexture2D::5718212043307914173::1713157106::1713157112::1::::<><>::
+Coh1_height.png::CompressedTexture2D::1602965516962000167::1713157106::1713157109::1::::<><>::
+icon.svg::CompressedTexture2D::8576477961930418759::1712756255::1712756262::1::::<><>::
+MapViewer.gd::GDScript::-1::1713444273::0::1::::<>Node2D<>::
+map_viewer.tscn::PackedScene::9036801678203247534::1713444273::0::1::::<><>::res://MapViewer.gd<>uid://do78ujsgmrr83::::res://t01.png
+t01.png::CompressedTexture2D::8210005827587028938::1712760103::1712760103::1::::<><>::
