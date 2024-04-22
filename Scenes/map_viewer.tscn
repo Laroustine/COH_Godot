@@ -9,7 +9,6 @@
 [node name="MapViewer" type="Node2D"]
 script = ExtResource("1_c0h6a")
 MAP_TEXTURE = ExtResource("2_3mwhv")
-POLYGON_PRECISION = 50.0
 
 [node name="Hud" parent="." instance=ExtResource("3_duc6a")]
 visible = false
