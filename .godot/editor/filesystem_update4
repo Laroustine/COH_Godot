@@ -1,2 +1,10 @@
-res://map_viewer.tscn
-res://MapViewer.gd
+res://Scenes/map_viewer.tscn
+res://Scenes/County.tscn
+res://Scripts/County.gd
+res://Scripts/MapViewer.gd
+res://Scripts/CountyInfo.gd
+res://Scripts/Population.gd
+res://Scenes/hud.tscn
+res://Scenes/HUD/hud.tscn
+res://Scenes/HUD/population_viewer.tscn
+res://Scenes/HUD/population_viewer.gd

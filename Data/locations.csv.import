@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://lae4tw7kfcht"
+
+[deps]
+
+files=["res://Data/locations.id.translation", "res://Data/locations.name.translation", "res://Data/locations.color.translation", "res://Data/locations.pop.translation", "res://Data/locations.pop.translation"]
+
+source_file="res://Data/locations.csv"
+dest_files=["res://Data/locations.id.translation", "res://Data/locations.name.translation", "res://Data/locations.color.translation", "res://Data/locations.pop.translation", "res://Data/locations.pop.translation"]
+
+[params]
+
+compress=true
+delimiter=0

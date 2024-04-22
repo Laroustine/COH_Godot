@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://d10q2kw0guu3g"]
+
+[ext_resource type="Script" path="res://Scripts/MapViewer.gd" id="1_c0h6a"]
+[ext_resource type="Texture2D" uid="uid://cnp7d8fd1nmg0" path="res://Assets/Coh1_Counties.png" id="2_3mwhv"]
+[ext_resource type="Script" path="res://Scripts/Camera2D.gd" id="3_0p6cu"]
+[ext_resource type="PackedScene" uid="uid://dv2i1qsxdy2fk" path="res://Scenes/HUD/hud.tscn" id="3_duc6a"]
+[ext_resource type="Texture2D" uid="uid://nh04a5x281l8" path="res://Assets/Coh1map.png" id="4_1hpwv"]
+
+[node name="MapViewer" type="Node2D"]
+script = ExtResource("1_c0h6a")
+MAP_TEXTURE = ExtResource("2_3mwhv")
+POLYGON_PRECISION = 50.0
+
+[node name="Hud" parent="." instance=ExtResource("3_duc6a")]
+visible = false
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3508, 2480)
+zoom = Vector2(0.2, 0.2)
+script = ExtResource("3_0p6cu")
+SPEED_ZOOM = 0.35
+
+[node name="BackgroundMap" type="Sprite2D" parent="."]
+texture = ExtResource("4_1hpwv")
+centered = false
+
+[node name="Regions" type="Node2D" parent="."]

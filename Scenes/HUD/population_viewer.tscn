@@ -1,0 +1,60 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1iagm2n3fmj1"]
+
+[ext_resource type="Script" path="res://Scenes/HUD/population_viewer.gd" id="1_n4o4r"]
+
+[node name="PopulationViewer" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_n4o4r")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Name" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/Name"]
+layout_mode = 2
+text = "Peasant:"
+
+[node name="Label2" type="Label" parent="HBoxContainer/Name"]
+layout_mode = 2
+text = "Commoners:"
+
+[node name="Label3" type="Label" parent="HBoxContainer/Name"]
+layout_mode = 2
+text = "Burghers:
+"
+
+[node name="Label4" type="Label" parent="HBoxContainer/Name"]
+layout_mode = 2
+text = "Nobles:"
+
+[node name="Label5" type="Label" parent="HBoxContainer/Name"]
+layout_mode = 2
+text = "Clerc:"
+
+[node name="Value" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/Value"]
+layout_mode = 2
+text = "0"
+
+[node name="Label2" type="Label" parent="HBoxContainer/Value"]
+layout_mode = 2
+text = "0"
+
+[node name="Label3" type="Label" parent="HBoxContainer/Value"]
+layout_mode = 2
+text = "0"
+
+[node name="Label4" type="Label" parent="HBoxContainer/Value"]
+layout_mode = 2
+text = "0"
+
+[node name="Label5" type="Label" parent="HBoxContainer/Value"]
+layout_mode = 2
+text = "0"

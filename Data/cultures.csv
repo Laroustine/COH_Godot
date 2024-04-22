@@ -1,0 +1,4 @@
+id,name,color,change,change_bonus,change_resist
+0,None,#000000ff,1,0,0
+1,Culture_01,#00ff00ff,0.6,1,0.1
+2,Culture_02,#ff00ffff,0.3,0.25,0.25

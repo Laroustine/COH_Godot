@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bu8mtpmodmyxk"
+
+[deps]
+
+files=["res://Data/cultures.name.translation", "res://Data/cultures.color.translation", "res://Data/cultures.change.translation", "res://Data/cultures.change.translation", "res://Data/cultures.change.translation"]
+
+source_file="res://Data/cultures.csv"
+dest_files=["res://Data/cultures.name.translation", "res://Data/cultures.color.translation", "res://Data/cultures.change.translation", "res://Data/cultures.change.translation", "res://Data/cultures.change.translation"]
+
+[params]
+
+compress=true
+delimiter=0

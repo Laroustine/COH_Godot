@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciabfmhex1yls"]
+
+[ext_resource type="Script" path="res://Scripts/County.gd" id="1_0jgxw"]
+
+[node name="County" type="Area2D"]
+script = ExtResource("1_0jgxw")

@@ -1,0 +1,5 @@
+id,id_country,name,color,pop_town,pop_cside
+0,1,Test_01,#FF0000FF,1000,20000
+1,1,Test_02,#00FF00FF,500,18000
+2,2,Test_03,#0000FFFF,2200,16000
+3,0,Test_04,#FF00FFFF,20,4000

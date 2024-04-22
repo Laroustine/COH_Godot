@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dhv2ofjcqtvra"
+
+[deps]
+
+files=["res://Data/countries.name.translation", "res://Data/countries.color.translation"]
+
+source_file="res://Data/countries.csv"
+dest_files=["res://Data/countries.name.translation", "res://Data/countries.color.translation"]
+
+[params]
+
+compress=true
+delimiter=0
